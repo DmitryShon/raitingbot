@@ -16,6 +16,6 @@ async def echo_message():
 
 if __name__ == '__main__':
     scheduler = AsyncIOScheduler()
-    scheduler.add_job(echo_message, "interval", seconds = 10)
+    scheduler.add_job(echo_message, "interval", hours = 6)
     scheduler.start()
     executor.start_polling(dp)
