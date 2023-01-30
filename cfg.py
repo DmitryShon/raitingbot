@@ -31,7 +31,7 @@ accs = {
     'ailider.crowdforces.near' : '<b>Алексей</b>',
     'fairywinx_m22.crowdforces.near': '<b>Dmitry</b>',
     'bigpolandbro.crowdforces.near':'<b>LSKN</b>',
-    'kinpa200296.crowdforces.near':'<b>Epatage</b>',
+    'kinpa200296.crowdforces.near':'Таскер: <b>d d </b> | Ревьюер: <b>Достоевский</b>',
     'mindrocker.crowdforces.near':'<b>Vort</b>',
     'nuttyjam.crowdforces.near': 'Таскер: <b>Grief</b> | Ревьюер: <b>tt</b>',
     'yuliay.crowdforces.near': 'Таскер: <b>nikita</b> | Ревьюер: <b>tt</b>',
