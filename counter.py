@@ -32,4 +32,3 @@ async def get_res(accounts):
         output += f'\n• <em>{acc[0]}</em> : <b>{acc[1]}Ⓝ</b> \nРаботник: {accs[acc[0]]} '
         output += '\n——————————————————'
     return output
-
