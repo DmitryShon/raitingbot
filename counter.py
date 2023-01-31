@@ -29,6 +29,6 @@ async def get_res(accounts):
     for i, acc in enumerate(sorted(sl.items(), key=lambda x: x[1], reverse=True)):
         if i == len(accs) - 3:
             output += '\n<b>АУТСАЙДЕРЫ:</b> \n'
-        output += f'\n• <em>{acc[0]}</em> : <b>{acc[1]}Ⓝ</b> \nРаботник: {accs[acc[0]]} '
+        output += f'\n•<em>{acc[0].split(".")[0]}</em>: <b>{acc[1]}Ⓝ</b> \nКто работает:\n{accs[acc[0]]} '
         output += '\n——————————————————'
     return output
